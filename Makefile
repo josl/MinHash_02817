@@ -18,6 +18,9 @@ setup:
 # test your application (tests in the tests/ directory)
 test: unit
 
+download:
+	git clone https://github.com/fergiemcdowall/reuters-21578-json.git tests/dataset
+
 unit:
 	@coverage run --branch `which nosetests` -vv --with-yanc -s tests/
 	@coverage report -m --fail-under=80
