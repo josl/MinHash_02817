@@ -10,7 +10,7 @@
 # <bellod.cisneros@gmail.com & kosai@cbs.dtu.dk>
 
 from setuptools import setup, find_packages
-from MinHas_LSH_02817 import __version__
+from Hashing import __version__
 
 tests_require = [
     'mock',
@@ -25,12 +25,12 @@ tests_require = [
 ]
 
 setup(
-    name='MinHas_LSH_02817',
+    name='MinHash_LSH_02817',
     version=__version__,
-    description='Computational tools for Big Data (02807) - MinHas & LSH',
+    description='Computational tools for Big Data (02807) - Feture Hashing',
     long_description='''
-Computational tools for Big Data (02807) - MinHas & LSH
-''',
+        Computational tools for Big Data (02807) - Feture Hashing
+    ''',
     keywords='',
     author='Jose L. Bellod Cisneros & Kosai Al-Nakeeb',
     author_email='bellod.cisneros@gmail.com & kosai@cbs.dtu.dk',
