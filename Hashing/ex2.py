@@ -9,4 +9,5 @@
 # Copyright (c) 2016, Jose L. Bellod Cisneros & Kosai Al-Nakeeb
 # <bellod.cisneros@gmail.com & kosai@cbs.dtu.dk>
 
-from MinHash import MinHash
+from Hashing import MinHash
+from Hashing import BoW

@@ -11,7 +11,7 @@
 
 from preggy import expect
 
-from MinHas_LSH_02817 import __version__
+from Hashing import __version__
 from tests.base import TestCase
 
 
